@@ -24,7 +24,7 @@ This project applies text mining and machine learning techniques to analyze Amaz
 ## Contents
 The compendium contains the code, Google Colab notebooks, visualizations, and datasets used to analyze Amazon reviews about instant ramen. It is organized as follows:
 
-### `visualizations/`
+### `figures and visualization/`
 Contains all exported charts and graphics used in the project, including sentiment plots, topic modeling outputs, and the SVM confusion matrix.
 
 ### `data/`
@@ -40,17 +40,5 @@ Each notebook is uploaded separately and corresponds to a major project componen
 - Topic Modeling  
 - Machine Learning Model (SVM and comparisons)  
 
-### `poster/`
+### `poster`
 Includes the final project poster in both PDF and PNG formats.
-
----
-
-## Methods Summary
-- **Sentiment Analysis:** Used VADER to compare sentiment scores with Amazon star ratings.  
-- **Topic Modeling:** Applied LDA to uncover recurring themes in ramen reviews.  
-- **Machine Learning:** Built and evaluated multiple classifiers; selected SVM as the best-performing model for predicting review ratings.
-
----
-
-## Conclusion
-This project demonstrates how text mining and machine learning can extract meaningful insights from consumer food reviews. The SVM model achieved the strongest performance and provides a baseline for future improvements such as class balancing or deep learning approaches.
